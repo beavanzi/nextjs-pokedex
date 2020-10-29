@@ -38,8 +38,9 @@ export default class MyDocument extends Document {
     return (
       <Html>
         <Head>
+          <meta charSet="utf-8" />
           <link
-            href="https://fonts.googleapis.com/css2?family=Acme&display=swap"
+            href="https://fonts.googleapis.com/css2?family=Acme"
             rel="stylesheet"
             type="text/css"
           />

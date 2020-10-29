@@ -152,7 +152,7 @@ var external_styled_components_ = __webpack_require__("Dtiu");
         border-radius: 5px;
         background-color: #3b4cca;
         box-shadow: -3px 3px 0px #3b4c55;
-        font-family: Ubuntu;
+        font-family: "Acme";
     }
 
 `);
