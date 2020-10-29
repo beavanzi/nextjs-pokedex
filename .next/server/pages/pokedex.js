@@ -433,7 +433,7 @@ const WrapContainer = external_styled_components_default.a.div.withConfig({
 const ListItem = external_styled_components_default.a.div.withConfig({
   displayName: "Pokedex__ListItem",
   componentId: "j22jer-2"
-})(["text-align:center;padding:12px;border-radius:5px;background-color:red;color:#ffff;font-weight:700;flex-basis:10%;margin:3px;border:2px solid #880000;"]);
+})(["text-align:center;padding:12px;border-radius:5px;background-color:red;color:#e1e1e1;font-family:\"Lilita One\";font-size:15px;flex-basis:10%;margin:3px;border:2px solid #880000;"]);
 // CONCATENATED MODULE: ./pages/pokedex.tsx
 
 

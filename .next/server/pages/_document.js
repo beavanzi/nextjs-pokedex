@@ -822,9 +822,11 @@ class MyDocument extends next_document__WEBPACK_IMPORTED_MODULE_1___default.a {
         children: [/*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("meta", {
           charSet: "utf-8"
         }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("link", {
-          href: "https://fonts.googleapis.com/css2?family=Acme",
-          rel: "stylesheet",
-          type: "text/css"
+          href: "https://fonts.googleapis.com/css2?family=Lilita+One",
+          rel: "stylesheet"
+        }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("link", {
+          href: "https://fonts.googleapis.com/css2?family=Luckiest+Guy",
+          rel: "stylesheet"
         }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("link", {
           href: "//db.onlinewebfonts.com/c/f4d1593471d222ddebd973210265762a?family=Pokemon",
           rel: "stylesheet",

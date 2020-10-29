@@ -5,8 +5,8 @@
   "devFiles": [],
   "ampDevFiles": [],
   "lowPriorityFiles": [
-    "static/paWQg9tkeaNTv9BylQdWq/_buildManifest.js",
-    "static/paWQg9tkeaNTv9BylQdWq/_ssgManifest.js"
+    "static/2ISoO1WWIvV5GZuNXw5MF/_buildManifest.js",
+    "static/2ISoO1WWIvV5GZuNXw5MF/_ssgManifest.js"
   ],
   "pages": {
     "/": [
@@ -15,7 +15,7 @@
       "static/chunks/framework.2113c6061a2f456066a1.js",
       "static/chunks/commons.a91e4f58f9897850f771.js",
       "static/chunks/19b13abe2be935604c5cd0c6557c2a47e1ddba93.ba47481ba56a1b874b72.js",
-      "static/chunks/pages/index-ee21e022263afb1dcd95.js"
+      "static/chunks/pages/index-f6d75e8ceb7d5bec9aa1.js"
     ],
     "/_app": [
       "static/chunks/main-36427b4fb782bfd7af32.js",
@@ -23,7 +23,7 @@
       "static/chunks/framework.2113c6061a2f456066a1.js",
       "static/chunks/commons.a91e4f58f9897850f771.js",
       "static/chunks/19b13abe2be935604c5cd0c6557c2a47e1ddba93.ba47481ba56a1b874b72.js",
-      "static/chunks/pages/_app-365f1374e16b15ffac9c.js"
+      "static/chunks/pages/_app-a1fb0e5a118361218d1c.js"
     ],
     "/_error": [
       "static/chunks/main-36427b4fb782bfd7af32.js",
@@ -38,7 +38,7 @@
       "static/chunks/framework.2113c6061a2f456066a1.js",
       "static/chunks/commons.a91e4f58f9897850f771.js",
       "static/chunks/19b13abe2be935604c5cd0c6557c2a47e1ddba93.ba47481ba56a1b874b72.js",
-      "static/chunks/pages/pokedex-bb6dea1ae6b827395a4b.js"
+      "static/chunks/pages/pokedex-b54021633ef3727c3bb8.js"
     ]
   },
   "ampFirstPages": []

@@ -22,8 +22,9 @@ export const ListItem = styled.div`
   padding: 12px;
   border-radius: 5px;
   background-color: red;
-  color: #ffff;
-  font-weight: 700;
+  color: #e1e1e1;
+  font-family: "Lilita One";
+  font-size: 15px;
   flex-basis: 10%;
   margin: 3px;
   border: 2px solid #880000;

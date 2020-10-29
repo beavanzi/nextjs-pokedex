@@ -14,12 +14,12 @@ export default createGlobalStyle`
     a {
         text-decoration: none;
         padding: 10px;
-        color:#ffff;
+        color:#e1e1e1;
         font-weight: 700;
         border-radius: 5px;
         background-color: #3b4cca;
         box-shadow: -3px 3px 0px #3b4c55;
-        font-family: "Acme";
+        font-family: "Lilita One";
     }
 
 `

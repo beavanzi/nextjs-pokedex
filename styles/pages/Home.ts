@@ -16,9 +16,9 @@ export const CenteredContent = styled.div`
   justify-content: space-evenly;
 `
 export const Title = styled.h1`
-  font-family: "Pokemon";
+  font-family: "Luckiest Guy";
   font-size: 42px;
-  letter-spacing: 1.5px;
+  letter-spacing: 3px;
   text-shadow: -3px 3px 0px #880000;
   color: #ff0000;
 `

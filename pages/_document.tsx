@@ -40,9 +40,12 @@ export default class MyDocument extends Document {
         <Head>
           <meta charSet="utf-8" />
           <link
-            href="https://fonts.googleapis.com/css2?family=Acme"
+            href="https://fonts.googleapis.com/css2?family=Lilita+One"
             rel="stylesheet"
-            type="text/css"
+          />
+          <link
+            href="https://fonts.googleapis.com/css2?family=Luckiest+Guy"
+            rel="stylesheet"
           />
           <link
             href="//db.onlinewebfonts.com/c/f4d1593471d222ddebd973210265762a?family=Pokemon"
