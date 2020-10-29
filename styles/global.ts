@@ -19,7 +19,7 @@ export default createGlobalStyle`
         border-radius: 5px;
         background-color: #3b4cca;
         box-shadow: -3px 3px 0px #3b4c55;
-        font-family: Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+        font-family: Ubuntu;
     }
 
 `

@@ -1,6 +1,5 @@
 import Link from "next/link"
 import Image from "next/image"
-
 import { CenteredContainer, CenteredContent, Title } from "../styles/pages/Home"
 import Head from "next/head"
 
@@ -8,11 +7,6 @@ const Home = () => {
   return (
     <div>
       <Head>
-        <link
-          href="//db.onlinewebfonts.com/c/f4d1593471d222ddebd973210265762a?family=Pokemon"
-          rel="stylesheet"
-          type="text/css"
-        />
         <title>Pokedex</title>
       </Head>
       <CenteredContainer>
