@@ -1,5 +1,4 @@
 import i18n from "i18next"
-import { useRouter } from "next/router"
 import { initReactI18next } from "react-i18next"
 
 import translationEN from "../public/locales/en/translation.json"
@@ -21,7 +20,7 @@ i18n
   .use(initReactI18next) // passes i18n down to react-i18next
   .init({
     resources,
-    lng: "pt",
+    lng: "en",
     fallbackLng: "pt",
 
     keySeparator: false, // we do not use keys in form messages.welcome
