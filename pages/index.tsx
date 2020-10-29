@@ -1,24 +1,31 @@
-export async function getStaticProps(context) {
-  const response = await fetch("https://pokeapi.co/api/v2/pokedex/2/")
-  const data = await response.json()
-  const { pokemon_entries } = data
+import Link from "next/link"
+import Image from "next/image"
 
-  return {
-    props: { pokemons: pokemon_entries },
-  }
-}
+import { CenteredContainer, CenteredContent, Title } from "../styles/pages/Home"
+import Head from "next/head"
 
-export default function Home(props) {
-  const { pokemons } = props
-
+const Home = () => {
   return (
     <div>
-      <h1>Pokedex - Bea</h1>
-      <ul>
-        {pokemons.map((pokemon) => (
-          <li key={pokemon.entry_number}>{pokemon.pokemon_species.name}</li>
-        ))}
-      </ul>
+      <Head>
+        <link
+          href="//db.onlinewebfonts.com/c/f4d1593471d222ddebd973210265762a?family=Pokemon"
+          rel="stylesheet"
+          type="text/css"
+        />
+        <title>Pokedex</title>
+      </Head>
+      <CenteredContainer>
+        <CenteredContent>
+          <Title>Bem vindo a Pokedex!</Title>
+          <Image src="/pokemon-logo.png" width={360} height={120} />
+          <Link href="/pokedex">
+            <a>Navigate to Pokedex</a>
+          </Link>
+        </CenteredContent>
+      </CenteredContainer>
     </div>
   )
 }
+
+export default Home

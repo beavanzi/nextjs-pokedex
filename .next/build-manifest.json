@@ -1,32 +1,44 @@
 {
   "polyfillFiles": [
-    "static/chunks/polyfills-36bde18dcfde0c144be5.js"
+    "static/chunks/polyfills-11c8eba6a84e3fddec04.js"
   ],
   "devFiles": [],
   "ampDevFiles": [],
   "lowPriorityFiles": [
-    "static/pOl61fqkU9fzihgbGQPc5/_buildManifest.js",
-    "static/pOl61fqkU9fzihgbGQPc5/_ssgManifest.js"
+    "static/ctJ_ChW9dSbIEO645Yt4R/_buildManifest.js",
+    "static/ctJ_ChW9dSbIEO645Yt4R/_ssgManifest.js"
   ],
   "pages": {
     "/": [
-      "static/chunks/main-b5277495ce97cbe83bb7.js",
+      "static/chunks/main-36427b4fb782bfd7af32.js",
       "static/chunks/webpack-e067438c4cf4ef2ef178.js",
-      "static/chunks/framework.9116e7bff2bfccdffa19.js",
-      "static/chunks/pages/index-05e6cb514a8cd6e48fc1.js"
+      "static/chunks/framework.2113c6061a2f456066a1.js",
+      "static/chunks/commons.a91e4f58f9897850f771.js",
+      "static/chunks/19b13abe2be935604c5cd0c6557c2a47e1ddba93.ba47481ba56a1b874b72.js",
+      "static/chunks/pages/index-c5dd55e74ee1248c169d.js"
     ],
     "/_app": [
-      "static/chunks/main-b5277495ce97cbe83bb7.js",
+      "static/chunks/main-36427b4fb782bfd7af32.js",
       "static/chunks/webpack-e067438c4cf4ef2ef178.js",
-      "static/chunks/framework.9116e7bff2bfccdffa19.js",
-      "static/chunks/f6078781a05fe1bcb0902d23dbbb2662c8d200b3.dd9a1dfdb2ac0b8c1596.js",
-      "static/chunks/pages/_app-af1b8e54567fd58d71e4.js"
+      "static/chunks/framework.2113c6061a2f456066a1.js",
+      "static/chunks/commons.a91e4f58f9897850f771.js",
+      "static/chunks/19b13abe2be935604c5cd0c6557c2a47e1ddba93.ba47481ba56a1b874b72.js",
+      "static/chunks/pages/_app-648fbe6941c07f9ba8a8.js"
     ],
     "/_error": [
-      "static/chunks/main-b5277495ce97cbe83bb7.js",
+      "static/chunks/main-36427b4fb782bfd7af32.js",
       "static/chunks/webpack-e067438c4cf4ef2ef178.js",
-      "static/chunks/framework.9116e7bff2bfccdffa19.js",
-      "static/chunks/pages/_error-ed1b06dc12d6382f8fbd.js"
+      "static/chunks/framework.2113c6061a2f456066a1.js",
+      "static/chunks/commons.a91e4f58f9897850f771.js",
+      "static/chunks/pages/_error-cff691ed6419045f5861.js"
+    ],
+    "/pokedex": [
+      "static/chunks/main-36427b4fb782bfd7af32.js",
+      "static/chunks/webpack-e067438c4cf4ef2ef178.js",
+      "static/chunks/framework.2113c6061a2f456066a1.js",
+      "static/chunks/commons.a91e4f58f9897850f771.js",
+      "static/chunks/19b13abe2be935604c5cd0c6557c2a47e1ddba93.ba47481ba56a1b874b72.js",
+      "static/chunks/pages/pokedex-bb6dea1ae6b827395a4b.js"
     ]
   },
   "ampFirstPages": []
