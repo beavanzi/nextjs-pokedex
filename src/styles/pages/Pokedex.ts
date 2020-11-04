@@ -19,13 +19,13 @@ export const WrapContainer = styled.div`
 
 export const ListItem = styled.div`
   text-align: center;
-  padding: 12px;
+  padding: 8px;
   border-radius: 5px;
   background-color: red;
   color: #e1e1e1;
   font-family: "Lilita One";
   font-size: 15px;
-  flex-basis: 10%;
+  flex-basis: 8%;
   margin: 3px;
   border: 2px solid #880000;
 `

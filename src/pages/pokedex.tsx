@@ -1,6 +1,8 @@
+import { Button } from "@chakra-ui/core"
 import { GetStaticProps } from "next"
 import Link from "next/link"
 import { useTranslation } from "react-i18next"
+import { useFetch } from "../hooks/useFetch"
 import {
   ListItem,
   CenteredContainer,
@@ -9,23 +11,29 @@ import {
 import { PokemonEntry, Pokemons } from "../types/pokemons"
 
 export const getStaticProps: GetStaticProps = async ({ locale }) => {
-  const response = await fetch("https://pokeapi.co/api/v2/pokedex/2/")
-  const data: Pokemons = await response.json()
-  const { pokemon_entries: pokemons } = data
-
   return {
-    props: { pokemons, locale },
+    props: { locale },
   }
 }
 
-const Home = ({ pokemons, locale }) => {
+const Home = ({ locale }) => {
   const { t } = useTranslation()
+  const { data, error } = useFetch<Pokemons, any>(
+    "https://pokeapi.co/api/v2/pokedex/2/"
+  )
+
+  if (!data) {
+    return <p> Carregando </p>
+  }
+  const { pokemon_entries: pokemons } = data
 
   return (
     <CenteredContainer>
-      <Link href="/" locale={locale}>
-        <a>{t("GO_TO_HOME")}</a>
-      </Link>
+      <Button variant="blue-with-shadow">
+        <Link href="/" locale={locale}>
+          <a>{t("GO_TO_HOME")}</a>
+        </Link>
+      </Button>
       <WrapContainer>
         {pokemons.map((pokemon: PokemonEntry) => (
           <ListItem key={pokemon.entry_number}>

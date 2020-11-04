@@ -1,11 +1,12 @@
 import GlobalStyle from "../styles/global"
 import "../i18n"
+import { ThemeContext } from "../context/themes/ThemeContext"
 
 export default function MyApp({ Component, pageProps }) {
   return (
-    <>
-      <GlobalStyle />
+    <ThemeContext>
+      {/* <GlobalStyle /> */}
       <Component {...pageProps} />
-    </>
+    </ThemeContext>
   )
 }

@@ -23,5 +23,4 @@ export default createGlobalStyle`
         font-family: "Lilita One";
         font-size: 20px;
     }
-
 `
