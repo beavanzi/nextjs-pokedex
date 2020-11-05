@@ -1,5 +1,8 @@
 {
   "WELCOME_POKEDEX": "Bem vindo a Pokedex",
   "GO_TO_POKEDEX": "Ir para a Pokedex",
-  "GO_TO_HOME": "Ir para o Início"
+  "GO_TO_HOME": "Ir para o Início",
+  "LABEL_HOME": "Início",
+  "LABEL_POKEDEX": "Pokedex",
+  "LABEL_ABOUT": "Sobre"
 }

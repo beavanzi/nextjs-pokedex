@@ -1,27 +1,24 @@
-import { theme, DefaultTheme, extendTheme } from "@chakra-ui/core"
+import { extendTheme } from "@chakra-ui/core"
 
-// const customTheme: DefaultTheme = {
-//   ...theme,
-// }
-
-const customTheme = extendTheme({
-  colors: {
-    pokemons: {
-      red: {
-        basic: "#FF0000",
-        strong: "#CC0000",
-      },
-      blue: {
-        basic: "#3B4CCA",
-        strong: "#3b4c55",
-      },
-      yellow: {
-        basic: "#FFDE00",
-        strong: "#B3A125",
-      },
+const colors = {
+  pokemons: {
+    red: {
+      basic: "#FF0000",
+      strong: "#CC0000",
+    },
+    blue: {
+      basic: "#3B4CCA",
+      strong: "#3b4c55",
+    },
+    yellow: {
+      basic: "#FFDE00",
+      strong: "#B3A125",
     },
   },
+}
 
+const customTheme = extendTheme({
+  colors,
   components: {
     Button: {
       baseStyle: {
@@ -30,10 +27,10 @@ const customTheme = extendTheme({
       },
       variants: {
         "blue-with-shadow": {
-          bg: "#3b4cca",
+          bg: "pokemons.blue.basic",
           boxShadow: "-3px 3px 0px #3b4c55",
           borderWidth: "2px",
-          borderColor: "#3b4c55",
+          borderColor: "pokemons.blue.strong",
           color: "#e1e1e1",
           _hover: {
             bg: "#3b4caa",
@@ -56,10 +53,19 @@ const customTheme = extendTheme({
         },
       },
     },
-    RotatablePokeball: {
+    Box: {
       baseStyle: {
-        _hover: {
-          transform: "rotate(-30deg)",
+        fontFamily: "Lilita One",
+      },
+      variants: {
+        "red-card": {
+          bg: "pokemons.red.basic",
+          color: "#e1e1e1",
+          borderWidth: "0.5",
+          borderColor: "#880000",
+          borderRadius: "1",
+          fontSize: "4",
+          textAlign: "center",
         },
       },
     },
