@@ -3,11 +3,9 @@ import Image from "next/image"
 import Head from "next/head"
 
 import { useTranslation } from "react-i18next"
-import { Center, Flex, Heading } from "@chakra-ui/core"
-import React from "react"
+import { Center, Flex, Heading, Link } from "@chakra-ui/core"
 import RotateContainer from "../components/styled/RotateContainer"
 import LayoutMain from "../layouts/main-with-header"
-import Link from "next/link"
 
 const Home = ({ locale }) => {
   const { t } = useTranslation()
@@ -19,7 +17,7 @@ const Home = ({ locale }) => {
       </Head>
       <LayoutMain>
         <Center height="100%">
-          <Flex direction="column" align="center">
+          <Flex direction="column" align="center" justifyContent="center">
             <Heading lineHeight="xl" size="lg" variant="red-with-shadow">
               {t("WELCOME_POKEDEX")}
             </Heading>

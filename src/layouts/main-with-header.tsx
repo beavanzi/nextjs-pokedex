@@ -1,13 +1,13 @@
 import { useTranslation } from "react-i18next"
-import { Container } from "@chakra-ui/core"
+import { Container, Flex } from "@chakra-ui/core"
 import React from "react"
 import Header from "../components/Header"
 
-const LayoutMain: React.FC<{ children: any }> = ({ children }) => {
+const LayoutMain: React.FC = ({ children }) => {
   const { t } = useTranslation()
 
   return (
-    <>
+    <Flex minH="100vh" direction="column">
       <Header
         bg="pokemons.blue.basic"
         options={[
@@ -15,10 +15,17 @@ const LayoutMain: React.FC<{ children: any }> = ({ children }) => {
           { label: t("LABEL_POKEDEX"), link: "/pokedex" },
         ]}
       />
-      <Container height="100vh" maxWidth="100vw" bg="pokemons.yellow.basic">
+      <Container
+        display="flex"
+        alignItems="center"
+        justifyContent="center"
+        flexGrow={1}
+        maxWidth="100vw"
+        bg="pokemons.yellow.basic"
+      >
         {children}
       </Container>
-    </>
+    </Flex>
   )
 }
 

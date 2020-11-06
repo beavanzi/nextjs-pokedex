@@ -12,7 +12,7 @@ interface Props extends FlexProps {
 
 const Header: React.FC<Props> = ({ options, ...rest }) => {
   return (
-    <Flex as="header" w="100%" position="fixed" flex="1" align="flex-start">
+    <Flex as="header" w="100%" align="flex-start">
       {options.map((option) => (
         <Flex flex="1" {...rest}>
           <NextLink href={option.link} passHref>

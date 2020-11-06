@@ -1,13 +1,6 @@
-import {
-  Button,
-  Center,
-  Container,
-  Flex,
-  Wrap,
-  WrapItem,
-} from "@chakra-ui/core"
+import { Container, Link, Wrap, WrapItem } from "@chakra-ui/core"
 import { GetStaticProps } from "next"
-import Link from "next/link"
+import NextLink from "next/link"
 import React from "react"
 import { useTranslation } from "react-i18next"
 import RedCard from "../components/styled/RedCard"
@@ -34,19 +27,19 @@ const Pokedex = ({ locale }) => {
 
   return (
     <LayoutMain>
-      <Flex width="100%">
-        <Wrap align="center" spacing="2" marginTop="3">
+      <Container maxW="90%">
+        <Wrap display="inline-flex" marginTop="3">
           {pokemons.map((pokemon: PokemonEntry) => (
-            <WrapItem key={pokemon.entry_number}>
+            <WrapItem flexBasis="40" key={pokemon.entry_number}>
               <RedCard>
-                <Link href={`/pokedex/${pokemon.entry_number}`}>
-                  <a> {pokemon.pokemon_species.name}</a>
-                </Link>
+                <NextLink href={`/pokedex/${pokemon.entry_number}`} passHref>
+                  <Link> {pokemon.pokemon_species.name}</Link>
+                </NextLink>
               </RedCard>
             </WrapItem>
           ))}
         </Wrap>
-      </Flex>
+      </Container>
     </LayoutMain>
   )
 }
